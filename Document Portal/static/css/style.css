@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f9;
+   color: #333;
+}
+
+h1, h2 {
+   text-align: center;
+   color: #0056b3;
+}
+
+h1 {
+   margin-top: 20px;
+   font-size: 2.5em;
+}
+
+h2 {
+   margin-top: 40px;
+   font-size: 2em;
+}
+
+.content-section {
+   margin: 20px auto;
+   padding: 20px;
+   width: 80%;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container {
+   text-align: center;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload-button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 5px;
+}
+
+#choose-button {
+   background-color: #32b4f4;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin: 5px;
+}
+
+pre {
+   white-space: pre-wrap;
+   word-wrap: break-word;
+   font-size: 1em;
+   line-height: 1.5;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 20px auto;
+}
+
+p {
+   text-align: center;
+   font-size: 1.2em;
+   color: #666;
+}
